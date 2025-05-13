@@ -1,0 +1,639 @@
+.time1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 500;
+}
+.reception-icon1 {
+  width: 18.1px;
+  height: 11px;
+  position: relative;
+}
+.reception-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.battery-icon1,
+.wifi-icon1 {
+  height: 13px;
+  width: 18px;
+  position: relative;
+}
+.battery-icon1 {
+  height: 12.5px;
+  width: 26.6px;
+  object-fit: cover;
+}
+.frame-header,
+.frame-parent9,
+.time-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent9 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-5);
+}
+.frame-header,
+.time-parent {
+  max-width: 100%;
+}
+.time-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-header {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+.frame-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.appointment {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.appointment-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.appointment-wrapper,
+.frame-parent10,
+.frame-parent8 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent10 {
+  width: 271.8px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent8 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.doctor-image-icon {
+  height: 132px;
+  width: 132px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.dralmira {
+  position: relative;
+  line-height: 100%;
+}
+.doctor-name-container-child {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.doctor-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  z-index: 2;
+}
+.denteeth {
+  width: 73px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--secandary);
+  text-align: left;
+  display: inline-block;
+}
+.doctor-name-container-parent {
+  width: 248px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.payment {
+  width: 89.4px;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+}
+.payment-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.tg {
+  width: 103px;
+  position: relative;
+  display: inline-block;
+  color: var(--secandary);
+  text-align: center;
+  flex-shrink: 0;
+}
+.doctor-image-parent,
+.frame-parent11,
+.group-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-div {
+  width: 233.4px;
+  height: 27px;
+  flex-direction: row;
+  gap: 41px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.doctor-image-parent,
+.frame-parent11 {
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.doctor-image-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xl);
+  max-width: 108%;
+}
+.frame-wrapper5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+}
+.appointment-detailes-inner,
+.frame-parent7,
+.frame-wrapper5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent7 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xl);
+  gap: 28.5px;
+}
+.appointment-detailes-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) 0 0;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--primary);
+  font-family: var(--font-open-sans);
+}
+.details {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 600;
+}
+.worem-ipsum-dolor {
+  height: 120px;
+  position: relative;
+  font-size: 13px;
+  line-height: 132%;
+  color: var(--gray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.appointment-detailes-child,
+.details-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.details-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.appointment-detailes-child {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+.see-all {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  text-align: center;
+}
+.working-hours-label-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 178px;
+}
+.am {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-family: var(--font-open-sans);
+  color: var(--black);
+  text-align: left;
+}
+.date-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-5xl);
+  background-color: var(--color-gainsboro);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date-container:hover {
+  background-color: var(--color-silver-200);
+}
+.am1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: left;
+}
+.date-container-parent,
+.monday {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.monday {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-3xl);
+  background-color: var(--primary);
+  border-radius: var(--br-3xs);
+}
+.monday:hover,
+.sun-4-wrapper:hover {
+  background-color: var(--color-skyblue);
+}
+.date-container-parent {
+  flex: 1;
+  overflow: hidden;
+  gap: var(--gap-mini);
+}
+.working-hours-label-container-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-7xl);
+  flex-shrink: 0;
+}
+.date-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 283px;
+}
+.mon-5-wrapper,
+.sun-4-wrapper {
+  cursor: pointer;
+  border: 0;
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+}
+.sun-4-wrapper {
+  padding: var(--padding-lg) 38px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mon-5-wrapper {
+  padding: var(--padding-lg) var(--padding-11xl);
+  background-color: var(--color-gainsboro);
+}
+.mon-5-wrapper:hover,
+.tue-6-wrapper:hover {
+  background-color: var(--color-silver-200);
+}
+.frame-parent13,
+.mon-5-wrapper,
+.tue-6-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.tue-6-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-17xl);
+  background-color: var(--color-gainsboro);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+}
+.frame-parent13 {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.frame-parent12,
+.working-hours-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.frame-parent12 {
+  flex: 1;
+  padding: 0 var(--padding-8xl) 0 0;
+  gap: var(--gap-7xl);
+}
+.working-hours-header {
+  gap: var(--gap-10xl);
+  min-width: 424px;
+  max-width: 106%;
+}
+.doctor-card-child {
+  height: 93px;
+  width: 376.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.doctor-avatar-icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.worem-consectetur-adipiscing1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: var(--green);
+  z-index: 1;
+}
+.doctor-name-and-specialty,
+.drwanitha-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.drwanitha-group {
+  gap: var(--gap-2xs);
+}
+.doctor-name-and-specialty {
+  flex: 1;
+  padding: var(--padding-2xs) 0 0;
+  font-size: var(--font-size-xl);
+}
+.availability-indicator {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--green);
+  z-index: 1;
+}
+.div2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  z-index: 2;
+}
+.availability-icon {
+  width: 20px;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-7xs) var(--padding-8xs);
+  box-sizing: border-box;
+  color: var(--white);
+}
+.availability-icon,
+.doctor-details,
+.doctor-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.doctor-details {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-25xl-3);
+}
+.doctor-info {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 159px;
+}
+.doctor-card {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-xs-5) var(--padding-sm);
+  gap: var(--gap-8xl);
+  flex-shrink: 0;
+}
+.doctor-card,
+.doctor-card-wrapper,
+.working-hours-header-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.doctor-card-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 43px;
+  min-width: 376.6px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-averia-sans-libre);
+}
+.working-hours-header-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-17xl) var(--padding-8xl);
+  gap: var(--gap-18xl-1);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+.frame-child4 {
+  height: 60px;
+  width: 376.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  display: none;
+  max-width: 100%;
+}
+.book-an-appointment {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  z-index: 1;
+}
+.frame-footer,
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-group {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 71px;
+}
+.frame-footer {
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) 0 var(--padding-8xl);
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.appointment-detailes {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 39.1px;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 415px) {
+  .doctor-image-icon,
+  .frame-parent11 {
+    flex: 1;
+  }
+  .date-container-parent,
+  .date-parent,
+  .doctor-image-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 409px) {
+  .working-hours-label-container {
+    flex-wrap: wrap;
+  }
+  .doctor-card-wrapper,
+  .working-hours-header {
+    min-width: 100%;
+  }
+  .working-hours-header-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 380px) {
+  .working-hours-label-container {
+    gap: 89px;
+  }
+  .date-parent {
+    gap: 141px;
+  }
+}
+@media screen and (max-width: 377px) {
+  .frame-parent8 {
+    gap: var(--gap-mid);
+  }
+  .frame-parent13 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  .rectangle-group {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 322px) {
+  .doctor-card {
+    flex-wrap: wrap;
+  }
+}

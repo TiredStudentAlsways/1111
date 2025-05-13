@@ -1,0 +1,502 @@
+.time15 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 500;
+}
+.borrower-rewards-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+}
+.frame-icon17 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+.borrower-rewards {
+  height: 50px;
+  flex: 1;
+  position: relative;
+}
+.signal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.network1 {
+  width: 57.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 44.7px;
+}
+.reception-icon11 {
+  width: 18.1px;
+  height: 11px;
+  position: relative;
+  flex-shrink: 0;
+}
+.reception {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.wifi-icon11 {
+  height: 13px;
+  width: 18px;
+  position: relative;
+  flex-shrink: 0;
+}
+.name-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-9);
+}
+.payment2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tg-info,
+.user-name {
+  display: flex;
+  justify-content: flex-start;
+}
+.tg-info {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.user-name {
+  width: 216px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 55.5px;
+}
+.user-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.tg1 {
+  position: relative;
+}
+.bottom-bar,
+.user-info-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-info-parent {
+  align-self: stretch;
+  gap: 72.5px;
+}
+.bottom-bar {
+  flex: 1;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 186px;
+  text-align: left;
+  font-size: 56px;
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.battery-icon11 {
+  width: 26.6px;
+  height: 12.5px;
+  position: relative;
+  object-fit: cover;
+}
+.battery-frame,
+.status-bar,
+.top-bar1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.battery-frame {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.status-bar,
+.top-bar1 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.status-bar {
+  flex: 1;
+  gap: 4px;
+}
+.top-bar1 {
+  align-self: stretch;
+  padding: 0 var(--padding-7xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+.content-child {
+  width: 430px;
+  height: 607px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.doctor-chanaling-payment {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+  color: var(--black);
+  text-align: left;
+  z-index: 1;
+}
+.doctor-chanaling-payment-metho-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 3.2px var(--padding-sm);
+}
+.method-type-labels-child {
+  height: 50px;
+  width: 163px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  display: none;
+}
+.card-payment {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: left;
+  z-index: 2;
+}
+.method-type-labels {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-9xl) var(--padding-sm)
+    var(--padding-16xl);
+  background-color: var(--primary);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 106px;
+  z-index: 1;
+}
+.method-type-labels:hover,
+.pay-button:hover {
+  background-color: var(--color-skyblue);
+}
+.method-type-labels-item {
+  height: 50px;
+  width: 163px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.cash-payment {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-open-sans);
+  color: var(--black);
+  text-align: left;
+  z-index: 2;
+}
+.method-type-labels1,
+.method-types {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.method-type-labels1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  padding: 15.5px var(--padding-9xl) var(--padding-mini-5) var(--padding-16xl);
+  box-sizing: border-box;
+  min-width: 106px;
+  z-index: 1;
+}
+.method-types {
+  align-self: stretch;
+  gap: var(--gap-3xl-4);
+}
+.card-number {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-averia-sans-libre);
+  color: var(--black);
+  text-align: left;
+  z-index: 1;
+}
+.card-number-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-5xl) var(--padding-smi);
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-base);
+  color: var(--black);
+  min-width: 209px;
+  z-index: 1;
+}
+.card-number-input,
+.card-number-parent,
+.methods,
+.payment-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card-number-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base-7);
+}
+.methods,
+.payment-options {
+  max-width: 100%;
+}
+.methods {
+  flex: 1;
+  flex-direction: column;
+  gap: 27.7px;
+}
+.payment-options {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.expiry-date {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-averia-sans-libre);
+  color: var(--black);
+  text-align: left;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.expiry-date-placeholder {
+  width: 185.2px;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-5xl) var(--padding-smi);
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-base);
+  color: var(--black);
+  z-index: 1;
+}
+.expiry-date-fields,
+.expiry-date-values {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expiry-date-values {
+  align-self: stretch;
+  gap: 25.7px;
+  flex-shrink: 0;
+}
+.expiry-date-fields {
+  height: 135.4px;
+  flex: 1;
+  padding: 0 0 113.4px;
+  box-sizing: border-box;
+  gap: var(--gap-base-7);
+  min-width: 120px;
+}
+.cvv-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-smi);
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-base);
+  color: var(--black);
+  min-width: 90px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cvv-input,
+.cvv-parent,
+.expiry-date-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cvv-parent {
+  width: 149.2px;
+  flex-direction: column;
+  gap: var(--gap-base-7);
+}
+.expiry-date-input {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.card-details,
+.expiry-date-input-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.expiry-date-input-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base-7);
+}
+.card-details {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mini) 17.4px var(--padding-smi);
+  box-sizing: border-box;
+}
+.pay-button-child {
+  height: 60px;
+  width: 376.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary);
+  display: none;
+  max-width: 100%;
+}
+.pay-now {
+  width: 94px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: center;
+  z-index: 2;
+}
+.content,
+.pay-button,
+.payment1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.pay-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) 140px;
+  background-color: var(--primary);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.content,
+.payment1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  margin: 0;
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  padding: 29.5px var(--padding-7xl) var(--padding-7xl);
+  gap: 25.8px;
+  max-width: 100%;
+}
+.payment1 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--primary);
+  overflow: hidden;
+  padding: var(--padding-mini) 0 0;
+  gap: 56px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 400px) {
+  .pay-button {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 359px) {
+  .expiry-date-input {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 358px) {
+  .method-types {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 353px) {
+  .status-bar {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 286px) {
+  .user-info-parent {
+    gap: var(--gap-17xl);
+  }
+}

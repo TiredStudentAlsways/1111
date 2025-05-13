@@ -1,0 +1,564 @@
+.sidebar-icon {
+  width: 13px;
+  height: 39.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 53px 0 0;
+}
+.time5 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 500;
+}
+.content-area-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+  gap: var(--gap-12xs-3);
+}
+.all-doctors2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.all-doctors-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-39xl) 0 0;
+  font-size: var(--font-size-7xl);
+  color: var(--primary);
+  font-family: var(--font-open-sans);
+}
+.reception-icon5 {
+  width: 18.1px;
+  height: 11px;
+  position: relative;
+}
+.doctor-info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.battery-icon5,
+.wifi-icon5 {
+  height: 13px;
+  width: 18px;
+  position: relative;
+}
+.battery-icon5 {
+  height: 12.5px;
+  width: 26.6px;
+  object-fit: cover;
+}
+.doctor-card1,
+.doctors-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.doctor-card1 {
+  flex-direction: row;
+  gap: var(--gap-7xs-5);
+}
+.doctors-list {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.content-layout,
+.page-structure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content-layout {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.page-structure {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+.search-item {
+  width: 376.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  height: 60px;
+  display: none;
+}
+.search-a-doctor1,
+.search-icon {
+  height: 18px;
+  position: relative;
+  z-index: 1;
+}
+.search-icon {
+  width: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search-a-doctor1 {
+  width: 129px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: var(--gray);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+.search-input1 {
+  height: 18.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12.4px;
+}
+.search-button-icon {
+  height: 20.3px;
+  width: 20.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.search1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lg-2) 33px var(--padding-2xl) var(--padding-5xl);
+  gap: 151.8px;
+}
+.image-mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightcyan);
+}
+.doctor-bulk-billing-doctors-ch-icon1 {
+  position: absolute;
+  height: 94.56%;
+  width: 36.75%;
+  top: 5.37%;
+  right: 59.35%;
+  bottom: 0.06%;
+  left: 3.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.drpawan1 {
+  width: 129px;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+}
+.doctor-name-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  z-index: 2;
+}
+.doctor-name-wrapper {
+  width: 182.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.jorem-ipsum-dolor1 {
+  width: 182.8px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: var(--gray);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.book-now-button-background {
+  height: 28.4px;
+  width: 79px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--primary);
+  z-index: 1;
+}
+.book1 {
+  width: 38px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.book-now-button-wrapper,
+.book-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.book-wrapper {
+  flex-direction: column;
+  padding: var(--padding-6xs-2) 0 0;
+  z-index: 2;
+  margin-left: -56.5px;
+  position: relative;
+}
+.book-now-button-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-lg) 0 0;
+  background-color: transparent;
+  flex-direction: row;
+}
+.frame-icon7 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div6 {
+  width: 23px;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+}
+.card-action-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.card-action-icons-wrapper-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.2px 0 0;
+}
+.book-now-button-wrapper-parent {
+  width: 183.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.doctor-card-details-layout,
+.doctor-name-wrapper-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.doctor-name-wrapper-parent {
+  justify-content: flex-start;
+  gap: 18.9px;
+}
+.doctor-card-details-layout {
+  position: absolute;
+  top: 24.7px;
+  left: 177.2px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mini);
+}
+.component-31 {
+  width: 376.6px;
+  height: 161.9px;
+  position: relative;
+}
+.image-1-3-removebg-preview-1-icon {
+  height: 162px;
+  width: 143px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.second-doctor-card-details-lay-child {
+  width: 376.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightcyan);
+  height: 161.9px;
+  display: none;
+}
+.drgulnar,
+.jorem-ipsum-dolor2,
+.second-card-action {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  z-index: 1;
+}
+.drgulnar {
+  width: 86px;
+  font-weight: 600;
+}
+.jorem-ipsum-dolor2,
+.second-card-action {
+  letter-spacing: -0.02em;
+}
+.jorem-ipsum-dolor2 {
+  width: 182.8px;
+  font-size: var(--font-size-xs);
+  color: var(--gray);
+  white-space: pre-wrap;
+}
+.second-card-action {
+  width: 23px;
+  font-weight: 600;
+}
+.second-card-action-icons-wrapp {
+  margin: 0 !important;
+  position: absolute;
+  top: 4.2px;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frame-child10 {
+  width: 79px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--primary);
+  height: 28.4px;
+  display: none;
+}
+.book2 {
+  width: 38px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs-2) var(--padding-lg) var(--padding-6xs-2)
+    var(--padding-3xl);
+  background-color: var(--primary);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.group-button:hover {
+  background-color: var(--color-skyblue);
+}
+.second-card-action-icons-wrapp-parent,
+.second-doctor-card-details-lay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.second-card-action-icons-wrapp-parent {
+  width: 183.8px;
+  flex-direction: row;
+  font-size: var(--font-size-base);
+}
+.second-doctor-card-details-lay {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightcyan);
+  flex-direction: column;
+  padding: 26.7px var(--padding-mini) var(--padding-base-1) 177px;
+  gap: 17.9px;
+  flex-shrink: 0;
+  margin-left: -128.8px;
+}
+.image-1-3-removebg-preview-1-parent {
+  width: 390.8px;
+  height: 162.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.istockphoto-138205019-612x612-icon {
+  height: 161.6px;
+  width: 138.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.drernur {
+  width: 75px;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.doctor-speciality-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.doctor-card-content,
+.doctor-card-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.doctor-card-content {
+  justify-content: flex-start;
+  gap: var(--gap-lg-8);
+}
+.doctor-card-layout {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base-1);
+}
+.rectangle-parent2 {
+  height: 161.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-12xs-2) var(--padding-10xl) var(--padding-12xs-1) 32px;
+  box-sizing: border-box;
+  gap: 6.2px;
+}
+.doctor-bulk-billing-doctors-ch-icon2 {
+  height: 153.1px;
+  width: 138.4px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.book4,
+.drasilbek {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+}
+.drasilbek {
+  width: 89px;
+  font-weight: 600;
+  z-index: 1;
+}
+.book4 {
+  width: 38px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-family: var(--font-open-sans);
+  color: var(--white);
+  text-align: left;
+  z-index: 2;
+}
+.rectangle-parent4 {
+  width: 376.6px;
+  height: 161.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 8.8px var(--padding-sm) 0;
+  box-sizing: border-box;
+  gap: 24.1px;
+}
+.component-3-parent {
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-open-sans);
+}
+.all-doctors1,
+.component-3-parent,
+.search-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-parent {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-11xl);
+}
+.all-doctors1 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-mini) var(--padding-lgi) 11.4px;
+  box-sizing: border-box;
+  gap: var(--gap-12xs-3);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 389px) {
+  .search1 {
+    gap: 76px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .second-doctor-card-details-lay {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

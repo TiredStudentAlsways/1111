@@ -1,0 +1,48 @@
+.medinova-icon {
+  width: 135px;
+  height: 135px;
+  position: relative;
+  object-fit: contain;
+}
+.kazahmed {
+  width: 374px;
+  height: 43px;
+  position: relative;
+  line-height: 70px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: 70px;
+  color: var(--primary);
+  font-family: var(--font-lexend);
+}
+.onboarding {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 351.5px var(--padding-9xl) 365.5px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 374px) {
+  .logo {
+    gap: 18px;
+  }
+}
